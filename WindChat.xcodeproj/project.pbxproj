@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97083CCC1DFC6ECE008CB24E /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97083CCB1DFC6ECD008CB24E /* Requester.swift */; };
+		9719D5FC1DF8D7FF005F9DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719D5FB1DF8D7FF005F9DF8 /* AppDelegate.swift */; };
+		9719D5FE1DF8D7FF005F9DF8 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719D5FD1DF8D7FF005F9DF8 /* Login.swift */; };
+		9719D6011DF8D7FF005F9DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9719D5FF1DF8D7FF005F9DF8 /* Main.storyboard */; };
+		9719D6031DF8D800005F9DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9719D6021DF8D800005F9DF8 /* Assets.xcassets */; };
+		9719D6061DF8D800005F9DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9719D6041DF8D800005F9DF8 /* LaunchScreen.storyboard */; };
+		9719D6111DF8D800005F9DF8 /* WindChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719D6101DF8D800005F9DF8 /* WindChatTests.swift */; };
+		9719D61C1DF8D800005F9DF8 /* WindChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719D61B1DF8D800005F9DF8 /* WindChatUITests.swift */; };
+		9761EFCA1E0546F500620FDF /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9761EFC91E0546F400620FDF /* Wind.swift */; };
+		977B16BD1DFF3BA300825668 /* Functionalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B16BB1DFF3BA300825668 /* Functionalities.swift */; };
+		977B16BE1DFF3BA300825668 /* Functionalities.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977B16BC1DFF3BA300825668 /* Functionalities.xib */; };
+		977B16C01DFF526500825668 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B16BF1DFF526500825668 /* Register.swift */; };
+		97B346D71DFF05B2002560C1 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B346D61DFF05B2002560C1 /* ScrollView.swift */; };
+		97D08DF71DFC318900983A01 /* ViewFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D08DF51DFC318900983A01 /* ViewFriends.swift */; };
+		97D08DF81DFC318900983A01 /* ViewFriends.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D08DF61DFC318900983A01 /* ViewFriends.xib */; };
+		97D08DFA1DFC563B00983A01 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D08DF91DFC563B00983A01 /* User.swift */; };
+		97D118461DFB382F00137546 /* ViewCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D118441DFB382F00137546 /* ViewCamera.swift */; };
+		97D118471DFB382F00137546 /* ViewCamera.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D118451DFB382F00137546 /* ViewCamera.xib */; };
+		97D1184A1DFB48BD00137546 /* ViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D118481DFB48BC00137546 /* ViewProfile.swift */; };
+		97D1184B1DFB48BD00137546 /* ViewProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97D118491DFB48BC00137546 /* ViewProfile.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9719D60D1DF8D800005F9DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9719D5F01DF8D7FE005F9DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9719D5F71DF8D7FE005F9DF8;
+			remoteInfo = WindChat;
+		};
+		9719D6181DF8D800005F9DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9719D5F01DF8D7FE005F9DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9719D5F71DF8D7FE005F9DF8;
+			remoteInfo = WindChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97083CCB1DFC6ECD008CB24E /* Requester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		9719D5F81DF8D7FF005F9DF8 /* WindChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9719D5FB1DF8D7FF005F9DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9719D5FD1DF8D7FF005F9DF8 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9719D6001DF8D7FF005F9DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9719D6021DF8D800005F9DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9719D6051DF8D800005F9DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9719D6071DF8D800005F9DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9719D60C1DF8D800005F9DF8 /* WindChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9719D6101DF8D800005F9DF8 /* WindChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindChatTests.swift; sourceTree = "<group>"; };
+		9719D6121DF8D800005F9DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9719D6171DF8D800005F9DF8 /* WindChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9719D61B1DF8D800005F9DF8 /* WindChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindChatUITests.swift; sourceTree = "<group>"; };
+		9719D61D1DF8D800005F9DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9761EFC91E0546F400620FDF /* Wind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		977B16BB1DFF3BA300825668 /* Functionalities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functionalities.swift; sourceTree = "<group>"; };
+		977B16BC1DFF3BA300825668 /* Functionalities.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Functionalities.xib; sourceTree = "<group>"; };
+		977B16BF1DFF526500825668 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		97B346D61DFF05B2002560C1 /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		97D08DF51DFC318900983A01 /* ViewFriends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFriends.swift; sourceTree = "<group>"; };
+		97D08DF61DFC318900983A01 /* ViewFriends.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewFriends.xib; sourceTree = "<group>"; };
+		97D08DF91DFC563B00983A01 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		97D118441DFB382F00137546 /* ViewCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewCamera.swift; path = ../ViewCamera.swift; sourceTree = "<group>"; };
+		97D118451DFB382F00137546 /* ViewCamera.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewCamera.xib; path = ../ViewCamera.xib; sourceTree = "<group>"; };
+		97D118481DFB48BC00137546 /* ViewProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProfile.swift; sourceTree = "<group>"; };
+		97D118491DFB48BC00137546 /* ViewProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewProfile.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9719D5F51DF8D7FE005F9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9719D6091DF8D800005F9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9719D6141DF8D800005F9DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9719D5EF1DF8D7FE005F9DF8 = {
+			isa = PBXGroup;
+			children = (
+				9719D5FA1DF8D7FF005F9DF8 /* WindChat */,
+				9719D60F1DF8D800005F9DF8 /* WindChatTests */,
+				9719D61A1DF8D800005F9DF8 /* WindChatUITests */,
+				9719D5F91DF8D7FF005F9DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9719D5F91DF8D7FF005F9DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9719D5F81DF8D7FF005F9DF8 /* WindChat.app */,
+				9719D60C1DF8D800005F9DF8 /* WindChatTests.xctest */,
+				9719D6171DF8D800005F9DF8 /* WindChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9719D5FA1DF8D7FF005F9DF8 /* WindChat */ = {
+			isa = PBXGroup;
+			children = (
+				977B16BB1DFF3BA300825668 /* Functionalities.swift */,
+				977B16BC1DFF3BA300825668 /* Functionalities.xib */,
+				97D118441DFB382F00137546 /* ViewCamera.swift */,
+				97D118451DFB382F00137546 /* ViewCamera.xib */,
+				97D118481DFB48BC00137546 /* ViewProfile.swift */,
+				97D118491DFB48BC00137546 /* ViewProfile.xib */,
+				97D08DF51DFC318900983A01 /* ViewFriends.swift */,
+				97D08DF61DFC318900983A01 /* ViewFriends.xib */,
+				9719D5FB1DF8D7FF005F9DF8 /* AppDelegate.swift */,
+				97B346D61DFF05B2002560C1 /* ScrollView.swift */,
+				9719D5FD1DF8D7FF005F9DF8 /* Login.swift */,
+				977B16BF1DFF526500825668 /* Register.swift */,
+				9719D5FF1DF8D7FF005F9DF8 /* Main.storyboard */,
+				9719D6021DF8D800005F9DF8 /* Assets.xcassets */,
+				9719D6041DF8D800005F9DF8 /* LaunchScreen.storyboard */,
+				9719D6071DF8D800005F9DF8 /* Info.plist */,
+				97D08DF91DFC563B00983A01 /* User.swift */,
+				9761EFC91E0546F400620FDF /* Wind.swift */,
+				97083CCB1DFC6ECD008CB24E /* Requester.swift */,
+			);
+			path = WindChat;
+			sourceTree = "<group>";
+		};
+		9719D60F1DF8D800005F9DF8 /* WindChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9719D6101DF8D800005F9DF8 /* WindChatTests.swift */,
+				9719D6121DF8D800005F9DF8 /* Info.plist */,
+			);
+			path = WindChatTests;
+			sourceTree = "<group>";
+		};
+		9719D61A1DF8D800005F9DF8 /* WindChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9719D61B1DF8D800005F9DF8 /* WindChatUITests.swift */,
+				9719D61D1DF8D800005F9DF8 /* Info.plist */,
+			);
+			path = WindChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9719D5F71DF8D7FE005F9DF8 /* WindChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9719D6201DF8D800005F9DF8 /* Build configuration list for PBXNativeTarget "WindChat" */;
+			buildPhases = (
+				9719D5F41DF8D7FE005F9DF8 /* Sources */,
+				9719D5F51DF8D7FE005F9DF8 /* Frameworks */,
+				9719D5F61DF8D7FE005F9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindChat;
+			productName = WindChat;
+			productReference = 9719D5F81DF8D7FF005F9DF8 /* WindChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9719D60B1DF8D800005F9DF8 /* WindChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9719D6231DF8D800005F9DF8 /* Build configuration list for PBXNativeTarget "WindChatTests" */;
+			buildPhases = (
+				9719D6081DF8D800005F9DF8 /* Sources */,
+				9719D6091DF8D800005F9DF8 /* Frameworks */,
+				9719D60A1DF8D800005F9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9719D60E1DF8D800005F9DF8 /* PBXTargetDependency */,
+			);
+			name = WindChatTests;
+			productName = WindChatTests;
+			productReference = 9719D60C1DF8D800005F9DF8 /* WindChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9719D6161DF8D800005F9DF8 /* WindChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9719D6261DF8D800005F9DF8 /* Build configuration list for PBXNativeTarget "WindChatUITests" */;
+			buildPhases = (
+				9719D6131DF8D800005F9DF8 /* Sources */,
+				9719D6141DF8D800005F9DF8 /* Frameworks */,
+				9719D6151DF8D800005F9DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9719D6191DF8D800005F9DF8 /* PBXTargetDependency */,
+			);
+			name = WindChatUITests;
+			productName = WindChatUITests;
+			productReference = 9719D6171DF8D800005F9DF8 /* WindChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9719D5F01DF8D7FE005F9DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "clop-a";
+				TargetAttributes = {
+					9719D5F71DF8D7FE005F9DF8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 26WDH86H37;
+						ProvisioningStyle = Automatic;
+					};
+					9719D60B1DF8D800005F9DF8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 26WDH86H37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9719D5F71DF8D7FE005F9DF8;
+					};
+					9719D6161DF8D800005F9DF8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 26WDH86H37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9719D5F71DF8D7FE005F9DF8;
+					};
+				};
+			};
+			buildConfigurationList = 9719D5F31DF8D7FE005F9DF8 /* Build configuration list for PBXProject "WindChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9719D5EF1DF8D7FE005F9DF8;
+			productRefGroup = 9719D5F91DF8D7FF005F9DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9719D5F71DF8D7FE005F9DF8 /* WindChat */,
+				9719D60B1DF8D800005F9DF8 /* WindChatTests */,
+				9719D6161DF8D800005F9DF8 /* WindChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9719D5F61DF8D7FE005F9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D1184B1DFB48BD00137546 /* ViewProfile.xib in Resources */,
+				9719D6061DF8D800005F9DF8 /* LaunchScreen.storyboard in Resources */,
+				97D08DF81DFC318900983A01 /* ViewFriends.xib in Resources */,
+				9719D6031DF8D800005F9DF8 /* Assets.xcassets in Resources */,
+				97D118471DFB382F00137546 /* ViewCamera.xib in Resources */,
+				9719D6011DF8D7FF005F9DF8 /* Main.storyboard in Resources */,
+				977B16BE1DFF3BA300825668 /* Functionalities.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9719D60A1DF8D800005F9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9719D6151DF8D800005F9DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9719D5F41DF8D7FE005F9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D1184A1DFB48BD00137546 /* ViewProfile.swift in Sources */,
+				9719D5FE1DF8D7FF005F9DF8 /* Login.swift in Sources */,
+				97D08DFA1DFC563B00983A01 /* User.swift in Sources */,
+				97D118461DFB382F00137546 /* ViewCamera.swift in Sources */,
+				977B16C01DFF526500825668 /* Register.swift in Sources */,
+				97083CCC1DFC6ECE008CB24E /* Requester.swift in Sources */,
+				97B346D71DFF05B2002560C1 /* ScrollView.swift in Sources */,
+				977B16BD1DFF3BA300825668 /* Functionalities.swift in Sources */,
+				97D08DF71DFC318900983A01 /* ViewFriends.swift in Sources */,
+				9719D5FC1DF8D7FF005F9DF8 /* AppDelegate.swift in Sources */,
+				9761EFCA1E0546F500620FDF /* Wind.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9719D6081DF8D800005F9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9719D6111DF8D800005F9DF8 /* WindChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9719D6131DF8D800005F9DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9719D61C1DF8D800005F9DF8 /* WindChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9719D60E1DF8D800005F9DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9719D5F71DF8D7FE005F9DF8 /* WindChat */;
+			targetProxy = 9719D60D1DF8D800005F9DF8 /* PBXContainerItemProxy */;
+		};
+		9719D6191DF8D800005F9DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9719D5F71DF8D7FE005F9DF8 /* WindChat */;
+			targetProxy = 9719D6181DF8D800005F9DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9719D5FF1DF8D7FF005F9DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9719D6001DF8D7FF005F9DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9719D6041DF8D800005F9DF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9719D6051DF8D800005F9DF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9719D61E1DF8D800005F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9719D61F1DF8D800005F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9719D6211DF8D800005F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 26WDH86H37;
+				INFOPLIST_FILE = WindChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3ie.clop-a.WindChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		9719D6221DF8D800005F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 26WDH86H37;
+				INFOPLIST_FILE = WindChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3ie.clop-a.WindChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9719D6241DF8D800005F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26WDH86H37;
+				INFOPLIST_FILE = WindChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.3ie.clop-a.WindChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindChat.app/WindChat";
+			};
+			name = Debug;
+		};
+		9719D6251DF8D800005F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26WDH86H37;
+				INFOPLIST_FILE = WindChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.3ie.clop-a.WindChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindChat.app/WindChat";
+			};
+			name = Release;
+		};
+		9719D6271DF8D800005F9DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26WDH86H37;
+				INFOPLIST_FILE = WindChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.3ie.clop-a.WindChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WindChat;
+			};
+			name = Debug;
+		};
+		9719D6281DF8D800005F9DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26WDH86H37;
+				INFOPLIST_FILE = WindChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.3ie.clop-a.WindChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WindChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9719D5F31DF8D7FE005F9DF8 /* Build configuration list for PBXProject "WindChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9719D61E1DF8D800005F9DF8 /* Debug */,
+				9719D61F1DF8D800005F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9719D6201DF8D800005F9DF8 /* Build configuration list for PBXNativeTarget "WindChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9719D6211DF8D800005F9DF8 /* Debug */,
+				9719D6221DF8D800005F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9719D6231DF8D800005F9DF8 /* Build configuration list for PBXNativeTarget "WindChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9719D6241DF8D800005F9DF8 /* Debug */,
+				9719D6251DF8D800005F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9719D6261DF8D800005F9DF8 /* Build configuration list for PBXNativeTarget "WindChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9719D6271DF8D800005F9DF8 /* Debug */,
+				9719D6281DF8D800005F9DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9719D5F01DF8D7FE005F9DF8 /* Project object */;
+}

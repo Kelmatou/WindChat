@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewFriends" customModule="WindChat">
+            <connections>
+                <outlet property="friendList" destination="oG3-Y0-QQE" id="qgU-Q0-gBg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oG3-Y0-QQE">
+                    <rect key="frame" x="0.0" y="120.5" width="375" height="547"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="547" id="P0f-N9-xbS"/>
+                        <constraint firstAttribute="width" constant="375" id="ct6-gx-kHt"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="nnW-EC-yq4"/>
+                    </constraints>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfx-Ug-Ck2">
+                    <rect key="frame" x="105" y="57" width="165" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2uX-MZ-rsk">
+                    <rect key="frame" x="280" y="604" width="79" height="43"/>
+                    <color key="backgroundColor" red="0.99400550127029419" green="0.85005319118499756" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="79" id="7he-ly-4Nf"/>
+                        <constraint firstAttribute="height" constant="43" id="ga3-0w-ghd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Update">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="updateFriends:" destination="-1" eventType="touchDown" id="jVa-nD-KMt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.99400550127029419" green="0.85005319118499756" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oG3-Y0-QQE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Rz-4D-fuH"/>
+                <constraint firstItem="Mfx-Ug-Ck2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="57" id="7wg-pZ-i8d"/>
+                <constraint firstItem="oG3-Y0-QQE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JGB-tn-1dK"/>
+                <constraint firstItem="oG3-Y0-QQE" firstAttribute="top" secondItem="Mfx-Ug-Ck2" secondAttribute="bottom" constant="30.5" id="Wnl-pT-p0b"/>
+                <constraint firstItem="Mfx-Ug-Ck2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="105" id="ZRh-3l-cAi"/>
+                <constraint firstAttribute="bottom" secondItem="2uX-MZ-rsk" secondAttribute="bottom" constant="20" id="ijf-yN-Uc5"/>
+                <constraint firstAttribute="trailing" secondItem="2uX-MZ-rsk" secondAttribute="trailing" constant="16" id="iyT-k4-5xr"/>
+                <constraint firstItem="Mfx-Ug-Ck2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oyf-0q-0mb"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

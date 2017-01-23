@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Functionalities" customModule="WindChat">
+            <connections>
+                <outlet property="accept" destination="OUm-sj-Ug3" id="F1B-bI-e84"/>
+                <outlet property="add" destination="3zB-eP-4R3" id="Vb0-ws-o8j"/>
+                <outlet property="grayIndicator" destination="mhW-n0-ei8" id="IDW-KC-XXa"/>
+                <outlet property="remove" destination="jsc-Xm-zvG" id="k4q-kF-IbT"/>
+                <outlet property="userNotFound" destination="Bgq-3k-jM2" id="J4Q-mc-DoL"/>
+                <outlet property="username" destination="Lmr-Ff-Iea" id="pdX-lZ-VbS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewWind" destination="6Ws-Ma-kWm" id="11g-bN-V2O"/>
+                <outlet property="windDisplay" destination="trc-3d-P4o" id="pWP-ck-Ndw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-Xm-zvG">
+                    <rect key="frame" x="37" y="308" width="90" height="29"/>
+                    <color key="backgroundColor" red="0.99703735110000002" green="1" blue="0.33751893039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="Bzi-PQ-IOQ"/>
+                        <constraint firstAttribute="width" constant="90" id="n0x-eK-tER"/>
+                    </constraints>
+                    <state key="normal" title="Remove">
+                        <color key="titleColor" red="0.98406678438186646" green="0.53558069467544556" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="removeFriend:" destination="-1" eventType="touchDown" id="AIC-zi-36V"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zB-eP-4R3">
+                    <rect key="frame" x="248" y="308" width="90" height="29"/>
+                    <color key="backgroundColor" red="0.99703735110000002" green="1" blue="0.33751893039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="1fh-oI-y7X"/>
+                        <constraint firstAttribute="width" constant="90" id="hmF-fD-9Wh"/>
+                    </constraints>
+                    <state key="normal" title="Add">
+                        <color key="titleColor" red="0.98406678439999995" green="0.53558069470000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addFriend:" destination="-1" eventType="touchDown" id="Aj0-16-Iaw"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bgq-3k-jM2">
+                    <rect key="frame" x="33" y="205" width="310" height="30"/>
+                    <color key="backgroundColor" red="0.7681043837" green="0.22352941179999999" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="cNF-HI-E9Q"/>
+                        <constraint firstAttribute="width" constant="310" id="kBn-AW-wtd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Friend not found">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IpB-3h-Wht">
+                    <rect key="frame" x="77" y="80" width="221" height="90"/>
+                    <color key="backgroundColor" red="0.99703735110000002" green="1" blue="0.33751893039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="Fkt-gK-MWh"/>
+                        <constraint firstAttribute="width" constant="221" id="LIC-1t-yaE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <state key="normal" title="Friend Manager">
+                        <color key="titleColor" red="0.98406678438186646" green="0.53558069467544556" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUm-sj-Ug3">
+                    <rect key="frame" x="142" y="308" width="90" height="29"/>
+                    <color key="backgroundColor" red="0.99703735110000002" green="1" blue="0.33751893039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="2br-84-qv7"/>
+                        <constraint firstAttribute="width" constant="90" id="dkx-6g-laS"/>
+                    </constraints>
+                    <state key="normal" title="Accept">
+                        <color key="titleColor" red="0.98406678439999995" green="0.53558069470000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="acceptFriend:" destination="-1" eventType="touchDown" id="EfK-a9-GoS"/>
+                    </connections>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="mhW-n0-ei8">
+                    <rect key="frame" x="177" y="210" width="20" height="20"/>
+                </activityIndicatorView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ws-Ma-kWm">
+                    <rect key="frame" x="35" y="389" width="306" height="99"/>
+                    <color key="backgroundColor" red="0.99703735110000002" green="1" blue="0.33751893039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="306" id="6g3-Mm-NAA"/>
+                        <constraint firstAttribute="height" constant="99" id="WYO-zX-yn6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <state key="normal" title="Open winds">
+                        <color key="titleColor" red="0.98406678438186646" green="0.53558069467544556" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="openWinds:" destination="-1" eventType="touchDown" id="9eo-zQ-hkD"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lmr-Ff-Iea">
+                    <rect key="frame" x="32" y="256" width="310" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Dp0-1A-Xpt"/>
+                        <constraint firstAttribute="width" constant="310" id="GAQ-ZO-1y3"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="trc-3d-P4o" userLabel="windDisplay">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.99400550127029419" green="0.85005319118499756" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OUm-sj-Ug3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8mv-Za-KP2"/>
+                <constraint firstItem="3zB-eP-4R3" firstAttribute="top" secondItem="Lmr-Ff-Iea" secondAttribute="bottom" constant="22" id="9DC-9I-ngV"/>
+                <constraint firstItem="3zB-eP-4R3" firstAttribute="leading" secondItem="OUm-sj-Ug3" secondAttribute="trailing" constant="16" id="BpC-Ga-hj6"/>
+                <constraint firstItem="mhW-n0-ei8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CYC-oV-KxP"/>
+                <constraint firstItem="OUm-sj-Ug3" firstAttribute="top" secondItem="Lmr-Ff-Iea" secondAttribute="bottom" constant="22" id="EBD-jX-Bfq"/>
+                <constraint firstItem="OUm-sj-Ug3" firstAttribute="leading" secondItem="jsc-Xm-zvG" secondAttribute="trailing" constant="15" id="FFP-vm-kTS"/>
+                <constraint firstItem="Bgq-3k-jM2" firstAttribute="top" secondItem="IpB-3h-Wht" secondAttribute="bottom" constant="35" id="Hj5-TS-AjX"/>
+                <constraint firstItem="mhW-n0-ei8" firstAttribute="top" secondItem="IpB-3h-Wht" secondAttribute="bottom" constant="40" id="N0D-ZP-EAJ"/>
+                <constraint firstItem="6Ws-Ma-kWm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="W0Z-Kd-DnE"/>
+                <constraint firstItem="jsc-Xm-zvG" firstAttribute="top" secondItem="Lmr-Ff-Iea" secondAttribute="bottom" constant="22" id="cHU-0I-r29"/>
+                <constraint firstItem="Lmr-Ff-Iea" firstAttribute="top" secondItem="Bgq-3k-jM2" secondAttribute="bottom" constant="21" id="idP-cJ-TfG"/>
+                <constraint firstItem="IpB-3h-Wht" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="jaT-VG-fRc"/>
+                <constraint firstItem="Bgq-3k-jM2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rNm-wV-SsA"/>
+                <constraint firstItem="Lmr-Ff-Iea" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="s2K-GT-bsI"/>
+                <constraint firstItem="6Ws-Ma-kWm" firstAttribute="top" secondItem="OUm-sj-Ug3" secondAttribute="bottom" constant="52" id="yXu-Ub-LA5"/>
+                <constraint firstItem="IpB-3h-Wht" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zXA-EG-qIV"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>
