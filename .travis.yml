@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode 8.1
+xcode_project: MovingHelper.xcodeproj
+xcode_sheme: MovingHelper
+xcode_sdk: iphonesimulator8.4
